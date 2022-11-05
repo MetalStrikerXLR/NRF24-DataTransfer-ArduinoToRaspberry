@@ -1,6 +1,5 @@
->>>> Copy code in Raspberry Pi
->>>> Run following commands in terminal:
-
+> Copy code in Raspberry Pi
+> Run following commands in terminal:
 
 1- sudo apt-get update
 
@@ -12,9 +11,8 @@
 
 5- make
 
-
->>>> Close terminal and open a fresh one again. Run following commands:
->>>> you can follow this guide as well: https://github.com/nRF24/RF24/blob/master/docs/python_wrapper.md
+> Close terminal and open a fresh one again. Run following commands:
+> you can follow this guide as well: https://github.com/nRF24/RF24/blob/master/docs/python_wrapper.md
 
 6- sudo apt-get install python3-dev libboost-python-dev python3-pip python3-rpi.gpio
 
@@ -22,10 +20,10 @@
 
 8- sudo ln -s $(ls /usr/lib/$(ls /usr/lib/gcc | tail -1)/libboost_python3*.so | tail -1) /usr/lib/$(ls /usr/lib/gcc | tail -1)/libboost_python3.so
 
->>>> Navigate to pyRF24 directory in the RF24 cloned repository
+> Navigate to pyRF24 directory in the RF24 cloned repository
 
 9- python3 setup.py build (will take some time)
 
 10- sudo python3 setup.py install (will take some time)
 
->>>> Run code
+> Run code
